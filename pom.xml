@@ -27,14 +27,14 @@
   </build>
    <distributionManagement>
         <repository>
-            <id>deployment</id>
-            <name>Internal Releases</name>
-            <url>http://18.216.135.30:8081/nexus/content/repositories/1.1/</url>
+            <id>releases</id>
+            <name>Releases</name>
+            <url>http://18.216.135.30:8081/nexus/content/repositories/releases/</url>
         </repository>
         <snapshotRepository>
-            <id>deployment</id>
-            <name>Internal Snapshot Releases</name>
-            <url>http://18.216.135.30:8081/nexus/content/repositories/1.1/</url>
+            <id>snapshots</id>
+            <name>Snapshots</name>
+            <url>http://18.216.135.30:8081/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>
